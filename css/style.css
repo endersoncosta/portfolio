@@ -6,6 +6,9 @@ header{
   margin: 0; padding: 80px; border: 0;
 }
 
+nav {
+}
+
 header .title, header .sub-title{
   text-shadow: 1px 1px 1px rgba(20,20,20,1);
   margin: 0;padding: 0;font-family: 'Roboto', sans-serif;font-weight: 200;
@@ -31,6 +34,75 @@ header .picture{
     margin: 0;padding: 0 15px;font-family: 'Roboto', sans-serif;font-weight: 200;
 }
 .justify-align{text-align: justify;}
+
+.memen{position:relative;overflow-x:auto;overflow-y:hidden;height:48px;width:100%;margin:0 auto;white-space:nowrap}
+.memen.tabs-transparent{background-color:transparent}
+.memen.tabs-transparent .tab a,.memen.tabs-transparent .tab.disabled a,.memen.tabs-transparent .tab.disabled a:hover{color:#512da8}
+.memen.tabs-fixed-width{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex}
+.memen.tabs-fixed-width .tab{-webkit-box-flex:1;-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1}
+.memen .tab{display:inline-block;text-align:center;line-height:48px;height:48px;padding:0;margin:0;
+  }
+.memen .tab a{display:block;width:100%;height:100%;padding:0 24px;font-size:14px;text-overflow:ellipsis;overflow:hidden;-webkit-transition:color .28s ease;transition:color .28s ease}
+.memen .tab a:hover,.memen .tab a.active{background-color:#ede7f6;color:#512da8;
+  -webkit-transition: all 300ms ease;
+-moz-transition: all 300ms ease;
+-ms-transition: all 300ms ease;
+-o-transition: all 300ms ease;
+transition: all 300ms ease;}
+.memen .tab.disabled a,.memen .tab.disabled a:hover{color:#512da8;cursor:default}
+.memen .indicator{position:absolute;bottom:0;height:2px;background-color:#f6b2b5;will-change:left, right}
+@media only screen and (max-width: 992px){
+  .memen{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex}
+  .memen .tab{-webkit-box-flex:1;-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1}
+  .memen .tab a{padding:0 12px}
+}
+
+.memen a{
+  color:#9575cd;
+  -webkit-transition: all 300ms ease;
+-moz-transition: all 300ms ease;
+-ms-transition: all 300ms ease;
+-o-transition: all 300ms ease;
+transition: all 300ms ease;
+}
+
+.menuside a:hover{
+  background-color:#ede7f6 !important;
+
+    color:#512da8 !important;
+
+      border-bottom: 2px solid #512da8;
+
+-webkit-transition: all 300ms ease;
+-moz-transition: all 300ms ease;
+-ms-transition: all 300ms ease;
+-o-transition: all 300ms ease;
+transition: all 300ms ease;
+}
+
+.memen .active {
+  border-bottom: 2px solid #512da8;
+  background-color:#ede7f6;
+
+}
+.espaco{margin: 20px auto 0 auto;
+  position: -webkit-sticky;
+  position: fixed;
+  top: -1px;
+
+  z-index: 999;
+}
+
+
+
+.page-title{
+  text-shadow: 1px 1px 0px #9fa8da;
+  color: #3f51b5;
+}
+
+.margin-fix{
+  margin-bottom: -16px;
+}
 
 .section-apresentation{
   border-left: 5px solid #9575cd;
