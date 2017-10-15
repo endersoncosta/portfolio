@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:200,300');
+
+body{font-family: 'Roboto', sans-serif;}
+
+header{
+  margin: 0; padding: 80px; border: 0;
+}
+
+header .title, header .sub-title{
+  text-shadow: 1px 1px 1px rgba(20,20,20,1);
+  margin: 0;padding: 0;font-family: 'Roboto', sans-serif;font-weight: 200;
+}
+
+header .picture{
+  height: 85px;
+
+
+  -webkit-box-shadow: 1px 1px 2px 0px rgba(20,20,20,1);
+  -moz-box-shadow: 1px 1px 2px 0px rgba(20,20,20,1);
+  box-shadow: 1px 1px 2px 0px rgba(20,20,20,1);
+}
+
+.thin-font{font-weight: 200;}
+.light-font{font-weight: 300;}
+
+.title{
+    margin: 0;padding: 0 15px;font-family: 'Roboto', sans-serif;font-weight: 300;
+}
+
+.sub-title{
+    margin: 0;padding: 0 15px;font-family: 'Roboto', sans-serif;font-weight: 200;
+}
+.justify-align{text-align: justify;}
+
+.section-apresentation{
+  border-left: 5px solid #9575cd;
+  padding: 10px 0 15px 0;
+}
+
+.section-portfolio{
+  border-right: 5px solid #9575cd;
+  padding: 15px 0 10px 0;
+}
+
+.carousel{
+  height: 220px;
+}
+
+.cantinho{border-radius: 2px;}
+
+.parallax-container {
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
